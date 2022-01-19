@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome link kit -->
+    <script src="https://kit.fontawesome.com/afa238782c.js" crossorigin="anonymous"></script>
+    <style>
+        .box {
+            border: 1px solid royalblue;
+            height: 7em;
+            width: 8em;
+        }
+
+        #box-1 {
+            background-color: cadetblue;
+        }
+
+        #box-2 {
+            background-color: aqua;
+        }
+
+        #box-3 {
+            background-color: blue;
+            /* visibility: hidden; */
+            /* display: none; */
+            display: block;
+        }
+
+        #box-4 {
+            background-color: yellowgreen;
+        }
+
+        #box-5 {
+            background-color: brown;
+        }
+
+        /* second module video topics */
+
+        .first-div {
+            height: 21em;
+            width: 32em;
+            border: 3px solid violet;
+            margin-top: 2em;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+
+        .second-div {
+            height: 21em;
+            width: 32em;
+            border: 3px solid blue;
+            margin-top: 2em;
+            overflow: hidden;
+        }
+
+        .third-dev p {
+            border: 3px solid indianred;
+            margin-top: 1em;
+            width: 11em;
+            height: 2em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* all fontawesome icons using fas class */
+        .fas {
+            color: blueviolet;
+        }
+
+        /* unique icons by specific class name i.e.fa-truck  */
+        .fa-truck {
+            font-size: 5em;
+        }
+
+        .fab:hover {
+            font-size: 2em;
+        }
+
+        /* transform practice style */
+        .outer-div{
+            border: 2px solid pink;
+            width: 11em;
+            height: 11em;
+            background-color: lightskyblue;
+        }
+        .inner-div{
+            border: 1px solid red;
+            width: 11em;
+            height:11em;
+            background-color: blue;
+            transform: rotate(30deg) scale(0.5) translateX(9em) translateY(4em) skew(45deg, 30deg);
+        }
+
+        /* transition practice style */
+
+        .big-div{
+            border: 1px solid red;
+            width: 11em;
+            height:11em;
+            background-color: blue;
+        }
+        .little-div{
+            border: 2px solid pink;
+            width: 6em;
+            height: 6em;
+            background-color: lightskyblue;
+            transition: width 5s linear 2s, height 5s ease, transform 2s;
+        }
+        .big-div:hover .little-div{
+            width: 10em;
+            height: 3em;
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box-1">box-1</div>
+    <div class="box" id="box-2">box-2</div>
+    <div class="box" id="box-3">box-3</div>
+    <div class="box" id="box-4">box-4</div>
+    <div class="box" id="box-5">box-5</div>
+    <!-- ************************************************************ -->
+    <div class="first-div">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, iure laboriosam? Aperiam nulla vitae quidem,
+            earum aliquid debitis totam provident beatae eveniet dicta tempora, quaerat inventore consequuntur magnam
+            sequi repellat soluta veniam, optio temporibus ex iusto nam eos architecto. Inventore dolorem repudiandae
+            ratione est ut quod atque, laboriosam earum quas aut vero itaque quos dolore fuga quis. Sed natus suscipit
+            consequatur optio, nulla doloremque quibusdam eligendi eos minus provident eum repudiandae esse asperiores
+            dolor at quia soluta repellendus laudantium eveniet odit dolore, ipsa expedita! Eos maxime laudantium
+            commodi doloremque exercitationem saepe deleniti autem consequatur quo officia architecto quos tenetur, nam
+            numquam, provident velit vel laboriosam! Neque nostrum in molestias beatae, temporibus fugiat labore ab
+            culpa nobis sapiente, non quos quidem, doloremque alias dolore. Odit aliquid doloremque sunt! Culpa,
+            explicabo libero. Doloremque temporibus reiciendis quaerat eos voluptates necessitatibus officia facilis
+            maxime qui, accusamus asperiores nulla officiis nostrum, veritatis earum aliquid. Quisquam qui, magnam
+            maxime sit ipsa ab, quo, dolores ex molestias nostrum animi fugiat deleniti debitis at mollitia illum
+            corrupti quaerat! Necessitatibus nulla quaerat iusto obcaecati voluptas minima nam tenetur esse ad velit
+            cupiditate officiis commodi recusandae itaque aliquid explicabo rerum in laborum, excepturi laudantium quia
+            magni. Officia incidunt corrupti harumOdit aliquid doloremque sunt! Culpa, explicabo libero. Doloremque
+            temporibus reiciendis quaerat eos voluptates necessitatibus officia facilis maxime qui, accusamus asperiores
+            nulla officiis nostrum, veritatis earum aliquid. Quisquam qui, magnam maxime sit ipsa ab, quo, dolores ex
+            molestias nostrum animi fugiat deleniti debitis at mollitia illum corrupti quaerat! Necessitatibus nulla
+            quaerat iusto obcaecati voluptas minima nam tenetur esse ad velit cupiditate officiis commodi recusandae
+            itaque aliquid explicabo rerum in laborum, excepturi laudantium quia magni. Officia incidunt?</p>
+    </div>
+    <div class="second-div">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, iure laboriosam? Aperiam nulla vitae quidem,
+            earum aliquid debitis totam provident beatae eveniet dicta tempora, quaerat inventore consequuntur magnam
+            sequi repellat soluta veniam, optio temporibus ex iusto nam eos architecto. Inventore dolorem repudiandae
+            ratione est ut quod atque, laboriosam earum quas aut vero itaque quos dolore fuga quis. Sed natus suscipit
+            consequatur optio, nulla doloremque quibusdam eligendi eos minus provident eum repudiandae esse asperiores
+            dolor at quia soluta repellendus laudantium eveniet odit dolore, ipsa expedita! Eos maxime laudantium
+            commodi doloremque exercitationem saepe deleniti autem consequatur quo officia architecto quos tenetur, nam
+            numquam, provident velit vel laboriosam! Neque nostrum in molestias beatae, temporibus fugiat labore ab
+            culpa nobis sapiente, non quos quidem, doloremque alias dolore. Odit aliquid doloremque sunt! Culpa,
+            explicabo libero. Doloremque temporibus reiciendis quaerat eos voluptates necessitatibus officia facilis
+            maxime qui, accusamus asperiores nulla officiis nostrum, veritatis earum aliquid. Quisquam qui, magnam
+            maxime sit ipsa ab, quo, dolores ex molestias nostrum animi fugiat deleniti debitis at mollitia illum
+            corrupti quaerat! Necessitatibus nulla quaerat iusto obcaecati voluptas minima nam tenetur esse ad velit
+            cupiditate officiis commodi recusandae itaque aliquid explicabo rerum in laborum, excepturi laudantium quia
+            magni. Officia incidunt corrupti harumOdit aliquid doloremque sunt! Culpa, explicabo libero. Doloremque
+            temporibus reiciendis quaerat eos voluptates necessitatibus officia facilis maxime qui, accusamus asperiores
+            nulla officiis nostrum, veritatis earum aliquid. Quisquam qui, magnam maxime sit ipsa ab, quo, dolores ex
+            molestias nostrum animi fugiat deleniti debitis at mollitia illum corrupti quaerat! Necessitatibus nulla
+            quaerat iusto obcaecati voluptas minima nam tenetur esse ad velit cupiditate officiis commodi recusandae
+            itaque aliquid explicabo rerum in laborum, excepturi laudantium quia magni. Officia incidunt?</p>
+    </div>
+    <div class="third-dev">
+        <p title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, necessitatibus?">Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Vel, necessitatibus?</p>
+    </div>
+    <h1><i class="fas fa-car"></i><i class="fas fa-truck"></i>
+    </h1>
+    <h3>Join me: <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></h3>
+    <hr color="red"><br>
+
+    <div class="outer-div">
+        <div class="inner-div"></div>
+    </div>
+    <hr color="red" style="margin-top: 100px;">
+
+    <div class="big-div">
+        <div class="little-div">Kamal Move</div>
+    </div>
+</body>
+
+</html>
